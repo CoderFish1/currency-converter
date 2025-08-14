@@ -1,30 +1,55 @@
-@import url('https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap");
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: "Ysabeau Office", sans-serif;
 }
-.content{
+.content {
   height: 100vh;
   width: 100vw;
-  background-color:azure;
+  background-color: azure;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.container{
-  display: flex;
-  align-items: flex-start;
-  height: 40vh;
-  width: 60vw;
-  background-color: rgb(198, 215, 230);
-  gap: 13px;
+.container {
+  position: relative;
+  height: 50%;
+  width: 65%;
+  background-color: rgb(118, 226, 226);
+  gap: 5%;
+  border-radius: 2vw;
 }
-.logo{
+.logo {
   background-color: transparent;
+  margin: 1.2vh 1.2vw;
 }
-h2{
-  margin: 0.8vw;
+.heading {
+  position: absolute;
+  top: 2.5vh;
+  left: 7vw;
+  font-size: 2vw;
+}
+.input{
+  display: flex;
+  padding: 2vw;
+  gap: 4vw;
+  flex-wrap: wrap;
+}
+.amount,
+.fromCurrency,
+.toCurrency {
+  display: flex;
+  flex-direction: column; 
+  gap: 0.5vw; 
+}
+.amount input,
+.fromCurrency select,
+.toCurrency select {
+  width: 200px;   /* adjust width as needed */
+  height: 35px;   /* adjust height as needed */
+  padding: 5px;
+  font-size: 16px;
 }
