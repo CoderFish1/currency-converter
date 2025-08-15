@@ -1,5 +1,7 @@
 # 💱 React Currency Converter
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue?style=for-the-badge)](https://currency-converter-gamma-seven.vercel.app/)
+
 A simple currency converter app built with **React** that fetches live exchange rates from the [Open Exchange Rates API](https://open.er-api.com/) and converts amounts between different currencies.
 
 ## 🚀 Features
